@@ -1,8 +1,8 @@
-#Hybrid SGP4 + LSTM Orbit Tracking
+# Hybrid SGP4 + LSTM Orbit Tracking
 
 A hybrid physics and machine learning model to improve space debris trajectory predictions in Low Earth Orbit (LEO).
 
-##How It Works
+# How It Works
 
 Standard SGP4 models handle baseline orbital physics, while an LSTM neural network predicts remaining residual errors. Residuals are converted from the ECI frame to the local RTN (Radial, Along-Track, Cross-Track) frame to isolate drag error along the direction of travel.
 
