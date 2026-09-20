@@ -25,5 +25,5 @@ Standard SGP4 models handle baseline orbital physics, while an LSTM neural netwo
 # Quickstart
 
 pip install -r requirements.txt
-python src/evaluate.py
+Download my notebook (LSTM_training.ipynb) and run it, you can use Google Colab for running the script easily without installing the requirements.txt file.
 
